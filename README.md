@@ -30,15 +30,3 @@ Este proyecto contiene la especificación, modelado, validación y trazabilidad 
 10. **P10. Gestión del Cambio:** Control de RFCs y declaración de Línea Base (*Baseline v1.0*).
 
 ---
-
-##  Estructura del Repositorio
-
-```text
-.
-├── main.tex                 # Código fuente principal en LaTeX
-├── Resumen_Cuestionario.png # Evidencia SGA - Resumen del cuestionario
-├── Revision_Intento.png     # Evidencia SGA - Captura del intento
-├── Class_Diagram.png        # Diagrama de Clases UML (P1)
-├── Activity_Diagram.png     # Diagrama de Actividades UML (P2)
-├── Machine_State.png        # Máquina de Estados UML (P3)
-└── README.md                # Descripción del proyecto
