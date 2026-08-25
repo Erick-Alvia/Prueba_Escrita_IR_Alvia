@@ -53,6 +53,11 @@ El documento fue desarrollado en **LaTeX** y compilado mediante **pdfLaTeX** por
 
 ### Orden de compilación
 Ejecutar en la terminal del computador (se recomienda tener instalado MikTex):
+dentro del terminal colocar el siguiente comando cd "Ruta donde se encuentra su archivo en el explorador"; 
+
+ej: `cd "C:\Users\GAMEMAX\OneDrive\Documentos\00_Git\Prueba"`
+
+luego colocar el siguiente comando: 
 
 `pdflatex main.tex`
 
