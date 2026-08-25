@@ -1,32 +1,39 @@
-#  Prueba Práctica Unidad IV - Ingeniería de Requisitos
+# Prueba Práctica - Unidad IV
 
-Repositorio oficial para la entrega de la **Prueba Práctica de la Unidad IV** correspondiente a la asignatura **Ingeniería de Requisitos (ISR-401)** de la Carrera de Ingeniería de Software — **Universidad Técnica Estatal de Quevedo (UTEQ)**.
+## Ingeniería de Requisitos (ISR-401)
 
----
+**Estudiante:** Alvia Villegas Erick Adalberto
 
-##  Información del Estudiante
+**Curso:** 4to Nivel "A" - Ingeniería de Software
 
-* **Estudiante:** Erick Adalberto Alvia Villegas
-* **Docente:** Ing. Gleiston Guerrero, Mg.
-* **Carrera:** Ingeniería de Software (4to Nivel)
-* **Fecha:** 11 de Agosto de 2026
-* **Caso de Estudio:** Sistema de Gestión de Pedidos
+**Docente:** Ing. Gleiston Guerrero, Mg.
+
+**Universidad:** Universidad Técnica Estatal de Quevedo (UTEQ)
 
 ---
 
-##  Contenido del Documento
+## Descripción
 
-Este proyecto contiene la especificación, modelado, validación y trazabilidad del **Sistema de Gestión de Pedidos**, estructurado en 10 actividades prácticas:
+Repositorio correspondiente a la **Prueba Práctica de la Unidad IV** de la asignatura Ingeniería de Requisitos (ISR-401).
 
-1. **P1. Modelo de datos:** Diagrama de clases UML.
-2. **P2. Modelo funcional:** Diagrama de actividades UML (procesos con swimlanes).
-3. **P3. Modelo de comportamiento:** Máquina de estados UML (ciclo de vida de pedidos).
-4. **P4. Consistencia:** Matriz de verificación cruzada entre modelos.
-5. **P5. Requisitos ERS:** Especificación con estándares ISO/IEC 25010:2023.
-6. **P6. Priorización:** Técnica MoSCoW (Valor vs. Viabilidad).
-7. **P7. Validación:** Lista de comprobación e inspección según IEEE 29148.
-8. **P8. Pruebas de Aceptación:** Casos de prueba vinculados a requisitos.
-9. **P9. Matriz de Trazabilidad:** Trazabilidad bidireccional (Fuentes $\leftrightarrow$ UML $\leftrightarrow$ Pruebas).
-10. **P10. Gestión del Cambio:** Control de RFCs y declaración de Línea Base (*Baseline v1.0*).
+El proyecto aborda el caso **Sistema de Gestión de Pedidos** mediante el desarrollo de diez actividades prácticas (P1 - P10) orientadas a la especificación, validación, trazabilidad, modelado UML y gestión del cambio en requisitos de software.
 
 ---
+
+## Estructura del Repositorio
+
+```text
+Prueba_Escrita_IR_Alvia/
+│
+├── main.tex
+├── Prueba_Corte_IV__Ingenieria_de_requerimientos_Alvia_Erick.pdf
+├── README.md
+│
+├── Figuras/
+│   ├── Class_Diagram.png
+│   ├── Activity_Diagram.png
+│   └── Machine_State.png
+│
+└── Evidencias/
+    ├── Resumen_Cuestionario.png
+    └── Revision_Intento.png
