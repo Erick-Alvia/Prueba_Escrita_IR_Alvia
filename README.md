@@ -32,7 +32,7 @@ El trabajo desarrolla el caso **Sistema de Gestión de Pedidos** mediante diez a
 
 ## Compilación
 
-El documento fue desarrollado en **LaTeX** y compilado mediante **pdfLaTeX**.
+El documento fue desarrollado en **LaTeX** y compilado mediante **pdfLaTeX** por medio de la terminal del computador con el uso de MikTex.
 
 ### Compilador
 `pdfLaTeX`
@@ -40,11 +40,25 @@ El documento fue desarrollado en **LaTeX** y compilado mediante **pdfLaTeX**.
 ### Archivo principal
 `main.tex`
 
-### Orden de compilación
-Ejecutar en la terminal:
+## Figuras y Evidencias
 
-`pdflatex main.tex
-pdflatex main.tex`
+### Carpeta `Figuras/`
+* `Class_Diagram.png`: Diagrama de clases UML del dominio.
+* `Activity_DIagram.png`: Diagrama de actividades del proceso de registro.
+* `Machine_State.png`: Diagrama de estados del ciclo de vida del pedido.
+
+### Carpeta `Evidencias/`
+* `Resumen_Cuestionario.png`: Captura del resumen del cuestionario en el SGA.
+* `Revision_Intento.png`: Captura de evaluación y revisión del intento SGA.
+
+### Orden de compilación
+Ejecutar en la terminal del computador (se recomienda tener instalado MikTex):
+
+`pdflatex main.tex`
+
+Volver a ejecutar permite actualizar correctamente la numeración, referencias internas y demás elementos generados por LaTeX:
+
+`pdflatex main.tex`
 
 ## Dependencias
 
@@ -65,17 +79,6 @@ El documento utiliza los siguientes paquetes de LaTeX:
 * `float`
 
 ---
-
-## Figuras y Evidencias
-
-### Carpeta `Figuras/`
-* `Class_Diagram.png`: Diagrama de clases UML del dominio.
-* `Activity_DIagram.png`: Diagrama de actividades del proceso de registro.
-* `Machine_State.png`: Diagrama de estados del ciclo de vida del pedido.
-
-### Carpeta `Evidencias/`
-* `Resumen_Cuestionario.png`: Captura del resumen del cuestionario en el SGA.
-* `Revision_Intento.png`: Captura de evaluación y revisión del intento SGA.
 
 ## Estructura del repositorio
 
