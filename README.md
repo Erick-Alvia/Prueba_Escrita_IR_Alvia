@@ -2,38 +2,93 @@
 
 ## Ingeniería de Requisitos (ISR-401)
 
-**Estudiante:** Alvia Villegas Erick Adalberto
-
-**Curso:** 4to Nivel "A" - Ingeniería de Software
-
-**Docente:** Ing. Gleiston Guerrero, Mg.
-
-**Universidad:** Universidad Técnica Estatal de Quevedo (UTEQ)
+**Estudiante:** Alvia Villegas Erick Adalberto  
+**Docente:** Ing. Guerrero Ulloa Gleiston Cicerón  
+**Universidad:** Universidad Técnica Estatal de Quevedo  
 
 ---
 
 ## Descripción
 
-Repositorio correspondiente a la **Prueba Práctica de la Unidad IV** de la asignatura Ingeniería de Requisitos (ISR-401).
+Repositorio correspondiente a la Prueba Práctica de la Unidad IV de la asignatura Ingeniería de Requisitos (ISR-401).
 
-El proyecto aborda el caso **Sistema de Gestión de Pedidos** mediante el desarrollo de diez actividades prácticas (P1 - P10) orientadas a la especificación, validación, trazabilidad, modelado UML y gestión del cambio en requisitos de software.
+El trabajo desarrolla el caso **Sistema de Gestión de Pedidos** mediante diez actividades prácticas relacionadas con modelado UML, especificación y validación de requisitos, priorización MoSCoW, pruebas de aceptación, trazabilidad y gestión del cambio.
+
+---
+## Contenido del desarrollo
+
+* **P1. Modelo de datos - Diagrama de clases UML:** Definición de clases (`Cliente`, `Pedido`, `Linea_Pedido`, `Producto`), atributos, operaciones, multiplicidades e identificadores.
+* **P2. Modelo funcional - Diagrama de actividades UML:** Modelado del proceso "Registrar pedido" usando carriles de responsabilidad, decisiones, flujos alternativos y convergencia.
+* **P3. Modelo de comportamiento - Máquina de estados UML:** Ciclo de vida del Pedido integrando un superestado para factorizar la acción de anulación.
+* **P4. Consistencia entre las tres perspectivas:** Tabla de verificación cruzada entre P1, P2 y P3 para corrección de inconsistencias.
+* **P5. Especificación de requisitos con esquema de atributos:** Definición de requisitos funcionales y no funcionales estructurados bajo el estándar ISO/IEC 25010:2023.
+* **P6. Priorización MoSCoW:** Clasificación estratégica de requisitos evaluando valor de negocio vs. viabilidad técnica.
+* **P7. Validación por inspección ISO/IEC/IEEE 29148:** Lista de comprobación de calidad, detección de defectos y versión corregida (retrabajo).
+* **P8. Pruebas de aceptación trazadas:** Diseño de casos de prueba (`TC-01` a `TC-04`) con entradas y criterios de éxito claros.
+* **P9. Matriz de trazabilidad:** Matriz bidireccional que conecta requisitos con fuentes, modelos UML, pruebas y dependencias.
+* **P10. Gestión del cambio y línea base:** Simulación de una Solicitud de Cambio (`RFC-01`), análisis de impacto, resolución del CCB y congelamiento de Baseline v1.0.
 
 ---
 
-## Estructura del Repositorio
+## Compilación
+
+El documento fue desarrollado en **LaTeX** y compilado mediante **pdfLaTeX**.
+
+### Compilador
+`pdfLaTeX`
+
+### Archivo principal
+`main.tex`
+
+### Orden de compilación
+Ejecutar en la terminal:
+
+`pdflatex main.tex
+pdflatex main.tex`
+
+## Dependencias
+
+El documento utiliza los siguientes paquetes de LaTeX:
+
+* `inputenc`
+* `babel`
+* `geometry`
+* `graphicx`
+* `booktabs`
+* `array`
+* `tabularx`
+* `enumitem`
+* `xcolor`
+* `titlesec`
+* `fancyhdr`
+* `hyperref`
+* `float`
+
+---
+
+## Figuras y Evidencias
+
+### Carpeta `Figuras/`
+* `Class_Diagram.png`: Diagrama de clases UML del dominio.
+* `Activity_DIagram.png`: Diagrama de actividades del proceso de registro.
+* `Machine_State.png`: Diagrama de estados del ciclo de vida del pedido.
+
+### Carpeta `Evidencias/`
+* `Resumen_Cuestionario.png`: Captura del resumen del cuestionario en el SGA.
+* `Revision_Intento.png`: Captura de evaluación y revisión del intento SGA.
+
+## Estructura del repositorio
 
 ```text
-Prueba_Escrita_IR_Alvia/
-│
+SGCV-IA-Practica-U4/
 ├── main.tex
-├── Prueba_Corte_IV__Ingenieria_de_requerimientos_Alvia_Erick.pdf
+├── Prueba_Corte_IV__Ingenieria_de_requerimientos_AlviaErick.pdf
 ├── README.md
-│
 ├── Figuras/
 │   ├── Class_Diagram.png
-│   ├── Activity_Diagram.png
+│   ├── Activity_DIagram.png
 │   └── Machine_State.png
-│
 └── Evidencias/
     ├── Resumen_Cuestionario.png
     └── Revision_Intento.png
+
